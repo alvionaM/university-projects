@@ -1,0 +1,30 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.all;
+
+ENTITY Control_Circuit IS 
+	PORT(  AInvert, BInvert, CarryIn: OUT STD_LOGIC;
+			                 Operation: OUT STD_LOGIC_VECTOR(1 DOWNTO 0);
+	                          opCode: IN  STD_LOGIC_VECTOR(2 DOWNTO 0);)
+END Control_Circuit;
+
+ARCHITECTURE behaviorControl IS
+	SIGNAL func: STD_LOGIC_VECTOR(4 DOWNTO 0);
+	
+BEGIN 
+	WITH OpCode SELECT 
+	func <= "00000" WHEN  "000";
+			  "01000" WHEN  "001";
+			  "10000" WHEN  "010";
+			  "10011" WHEN  "011";
+			  "00110" WHEN  "100";
+			  "01110" WHEN  "101";
+			  "11000" WHEN  "110";
+	Operation <= func(4) & func(3);
+	AInvert   <= func(2);
+	BInvert   <= func(1);
+	CarryIn   <= func(0);
+	
+END behaviorControl;
+
+
+			  

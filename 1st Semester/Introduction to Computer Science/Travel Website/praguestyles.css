@@ -1,0 +1,202 @@
+body:not(.homepagebody):not(h1):not(h2){
+    background-color: rgb(238, 217, 177);
+    font-family: "Arial", sans-serif;
+}
+p{
+    color:black;
+    font-size:16px;
+    padding-left: 5px;
+    margin-left: 16%;
+    margin-right: 2%;
+    text-align: justify;
+}
+h1:not(.headerfoods){
+    color: rgb(104,40,54);
+    margin-left: 16%;
+    font-family: 'Times New Roman', serif; 
+    text-shadow: 3px 3px 3px #ababab;
+}
+/*Ρυθμίσεις για quotes*/
+h3{
+    font-family: "Lucida Handwriting",cursive;
+    margin-left: 16%;
+    text-align:right ;
+    margin-right: 2%;
+    color:black ; 
+    font-size: medium;
+    border-right-color: rgb(104,40,54);
+    border-right-style: solid;
+    border-right-width: 5px ;
+    padding-right: 1%;
+    background-image: linear-gradient(to right, rgba(104,40,54,0), rgba(136, 69, 83,1))
+}
+h2{
+    margin-left: 16%;
+    font-family: 'Times New Roman', serif;
+    text-shadow: 3px 3px 3px #ababab
+}
+img:not(.imgdif):not(.up1):not(.emblem){
+    margin-left: 16%;
+}
+iframe{
+    margin-left: 16%;
+}
+table{
+    margin-left: 18%;
+    margin-right:2%;
+}
+table img:not(.image):not(.imgdif):not(.christmas){
+    width: 500px; 
+    height: auto;
+}
+/*Ρυθμίσεις για το Μενού Πλοήγησης*/
+ul:not(.architecture){
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: rgb(104, 40,54);
+    position: fixed;
+    height: 95%;  
+}
+  
+  li a:not(.sources){
+    display: block;
+    color: rgb(238, 217, 177);
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  li a:hover:not(.chosen){
+    background-color:rgb(238, 217, 177);
+    color:rgb(104,40,54);
+}
+a{
+    color:rgb(104,40,54) ;
+}
+ol{
+    margin-left: 16%;
+}
+footer:not(.footer1){
+    background-color: rgb(104,40,54);
+    padding: 10px;
+    text-align: center;
+    color: rgb(238, 217, 177);
+}
+
+/*Εισαγωγή animation*/
+
+/*"Κουμπί" UP σε όλες τις σελίδες εκτός απο τις homepage,contact και participants*/
+@keyframes animated1{
+    50% {box-shadow: 5px 10px 10px rgb(104,40,54);}
+}
+.up1{
+    width: 50px;
+    height: auto;
+    margin-left: 95%;
+    margin-bottom: 5%;
+    animation: animated1 5s infinite;
+}
+
+/*Animation Κειμένου Αρχικής*/ 
+@keyframes animated2{
+    0% {opacity: 0;}
+}
+.homepage{
+    animation: animated2 3s ;
+}
+
+/*Animation έλκηθρο στην σελίδα Christmas*/
+@keyframes animated3{
+    50% {left: 500px;}
+}
+.christmas{
+    position: absolute;
+    left:10px;
+    width: 200px;
+    height: auto;
+    animation: animated3 5s infinite;
+}
+
+/*Animation γλώσσας στην σελίδα History*/
+@keyframes animated4{
+    50% {width: 800px;}
+}
+.language{
+    width: 480px;
+    animation: animated4 5s infinite;
+    background-color: rgb(104,40,54);
+    color: rgb(238, 217, 177);
+}
+
+/*Animation ιστορίας στην σελίδα History*/
+@keyframes animated5{
+    50% {transform: rotate(360deg);}
+}
+.emblem{
+    width: auto;
+    height: 100px;
+    float: left;
+    animation: animated5 5s infinite;
+}
+
+/*Ψευδοκλάσεις:
+.homepagebody:Εξαιρεί το body της αρχικής απο τις γενικές ρυθμίσεις body
+.image:Εξαιρεί εικόνες που δεν θέλουμε να επηρεάζονται απο γενικές ρυθμίσεις εικόνων
+.imgdif:Εξαιρεί ορισμένες εικόνες που υπάρχουν σε πίνακες(των σελίδων sights,food and drinks,tours) απο τις ρυθμίσεις των selector img και table img
+.footer1:Εξαιρεί το footer της αρχικής απο τις γενικές ρυθμίσεις footer*/
+
+/*Ρυθμίσεις επικεφαλίδας πίνακα χωρίς εικόνες*/
+.table_header{
+    text-align: center;
+    padding: 10px;
+    background-color:rgb(104, 40, 54) ;
+    color: rgb(238, 217, 177);
+    border: rgb(104,40,54);
+    border-style: ridge;
+}
+
+/*Ρυθμίσεις πινάκων χωρίς εικόνες*/
+.table_features{
+    border: rgb(104,40,54);
+    border-style: solid;
+    text-align: center;
+    padding: 10px;
+    border-collapse: collapse;
+    border-style: ridge;
+}
+
+/*Ρυθμίσεις για το block της επιλεγμένης σελίδας στο μενού*/
+.chosen{
+    background-color:rgb(53, 48, 48) ;
+    color:rgb(238, 217, 177) ;
+}
+
+/*Εξαιρεί την λίστα της αρχιτεκτονικής(σελίδα history) απο τις γενικές ρυθμίσεις για τις ul λίστες*/
+.architecture{
+    margin-left: 16%;
+    margin-right: 2%;
+}
+
+/*Ρυθμίσεις για τα συγκεκριμένα link(πηγές)*/
+.sources{
+    color: black;
+    text-decoration: none;
+}
+
+/*Ρύθμιση padding για την συγκεκριμένη λίστα(λίστα πηγών)*/
+.padd_li{
+    padding: 7px 15px; 
+}
+
+/*Στοίχιση logo στο Μενού Πλοήγησης*/
+.logo1{
+    margin-right:25%;
+}
+
+/*Στοίχιση προς τα δεξιά της συνέχειας του τίτλου στην σελίδα food and drinks*/
+.headerfoods{
+    color: rgb(104,40,54);
+    margin-left: 30%;
+    font-family: 'Times New Roman', serif; 
+    text-shadow: 3px 3px 3px #ababab
+}
