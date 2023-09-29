@@ -4,7 +4,7 @@ All of the (other) assignments and projects completed as part of the university 
 💡The most remarkable projects were selected to be hosted on their own repository and are not included here <br>
 ✔️Assignments and projects are grouped according to their related course and organized in folders per Semester <br>
 ❗️Project descriptions, solutions and some code comments are in **Greek** as the university courses were offered in Greek.<br>
-  However when it comes to programming projects, any interaction through the User Interface (i.e. prompts, messages etc.) demands **English** solely
+  However when it comes to programming projects, any interaction through the User Interface (i.e. prompts, messages etc.) demands basic knowledge of **English** language
 
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif"/>
 
