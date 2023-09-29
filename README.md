@@ -6,7 +6,7 @@ All of the (other) assignments and projects completed as part of the university 
 ❗️Project descriptions, solutions and code comments are in **Greek** as the courses were offered in Greek.<br>
   However when it comes to programming projects, any interaction through the User Interface (i.e. prompts, messages etc.) demands basic knowledge of **English** language
 
-<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif"/>
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" height="10"/>
 
 ### Below is a list of all the university courses featured:
 
