@@ -1,10 +1,9 @@
 # university-projects
-All of the (other) assignments and projects completed as part of the university courses during my studies in AUEB (2020-2024) <br><br>
+This repository includes assignments and projects completed as part of my university courses at AUEB (2020-2024) <br><br>
 
-💡The most remarkable projects were selected to be hosted on their own repository and are not included here <br>
-✔️Assignments and projects are grouped according to their related course and organized in folders per Semester <br>
-❗️Project descriptions, solutions and code comments are in **Greek** as the courses were offered in Greek.<br>
-  However when it comes to programming projects, any interaction through the User Interface (i.e. prompts, messages etc.) demands basic knowledge of **English** language
+💡The most remarkable projects have been selected and are hosted in their respective repositories, which are not included here <br>
+✔️Assignments and projects are categorized based on their related courses and organized into folders by semester <br>
+❗️ Project descriptions, solutions, and code comments are in Greek since the courses were conducted in **Greek**. However, for programming projects, any interaction through the User Interface (i.e., prompts, messages, etc.) requires basic knowledge of the **English** language
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" height="10"/>
 
@@ -45,5 +44,10 @@ All of the (other) assignments and projects completed as part of the university 
 | 3664   |  Distributed Systems                                | 6     | 8   | 
 | 3648   |  Software Engineering                               | 6     | 8   | 
 | 3584   |  Technological Innovation and Entrepreneurship      | 8     | 6   | 
+|||||
+| 3632   |  Special Topics on Algorithms                       | 7     | 6   |
+| 3614   |  Applied Probability and Randomized Algorithms      | 7     | 6   |
+| 3745   |  Machine Learning                                   | 7     | 6   |
+| 3747   |  Technologies and Programmming of Web Applications  | 7     | 6   |
 
 **To be continued...**
