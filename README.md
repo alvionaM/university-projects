@@ -49,5 +49,8 @@ This repository includes assignments and projects completed as part of my univer
 | 3614   |  Applied Probability and Randomized Algorithms      | 7     | 6   |
 | 3745   |  Machine Learning                                   | 7     | 6   |
 | 3747   |  Technologies and Programmming of Web Applications  | 7     | 6   |
-
-**To be continued...**
+|||||
+| 3632   |  Computability and Complexity                       | 8     | 6   |
+| 3614   |  Special Topics on Discrete Mathematics             | 8     | 6   |
+| 3745   |  Decision and Game Theory                           | 8     | 6   |
+| 3747   |  Electronic Communication                           | 8     | 6   |
