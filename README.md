@@ -1,5 +1,5 @@
 # university-projects
-This repository includes assignments and projects completed as part of my university courses at AUEB (2020-2024) <br><br>
+Assignments and projects completed as part of my university courses at AUEB (Undergrad 2020-2024 and MSc 2024-2025) <br><br>
 
 💡The most remarkable projects have been selected and are hosted in their respective repositories, which are not included here <br>
 ✔️Assignments and projects are categorized based on their related courses and organized into folders by semester <br>
